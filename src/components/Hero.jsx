@@ -1,11 +1,18 @@
 import React from "react";
 import profilePic from "../assets/ProfilePicture.jpg";
+import Typewriter from "typewriter-effect"
 export default function Hero() {
     return (
         <section id="home" style={styles.hero}>
             <div style={styles.textContainer}>
                 <h1 style={styles.name}>Hi, I'm <span style={styles.highlight}>Jeevan Reddy Pappu</span></h1>
-                <h2 style={styles.title}>Software Engineer | Java | Documaker | Data Analyst</h2>
+                <Typewriter options={{
+                    strings : ['Im a Competitive Programmar', 'Im a Software Enginner'],
+                    loop : true,
+                    delay : 25,
+                    autoStart : true
+                }} />
+                {/* <h2 style={styles.title}>Software Engineer | Java | Documaker | Data Analyst</h2> */}
                 <p style={styles.desc}>
                     Passionate about building efficient, secure, and scalable software systems. Experienced in Oracle Documaker and full-stack development.
                 </p>
@@ -62,5 +69,8 @@ const styles = {
         height: "500px",
         objectFit: "cover",
         border: "4px solid #007acc",
+    },
+    Typewriter: {
+        fontSize : "32px",
     },
 };
