@@ -13,7 +13,7 @@ export default function Projects() {
             Built a machine learning model using Recurrent Neural Networks to detect and mitigate
             Distributed Denial of Service attacks in real time.
           </p>
-          <a href="#" style={styles.button}>View Project</a>
+          <a href="" style={styles.button}>View Project</a>
         </div>
 
         {/* Feed the Needy */}
@@ -24,6 +24,22 @@ export default function Projects() {
             and support the community. Built using HTML, CSS, PHP, and MySQL.
           </p>
           <a href="#" style={styles.button}>View Project</a>
+        </div>
+
+        <div style={styles.card}>
+          <h3 style={styles.title}>Encrypted Password Storage & Retrieval System</h3>
+          <p style={styles.desc}>
+            This project is a secure, end to end password storage system built using Spring Boot, AES encryption encrypted database entries that ensure safe credential handling and reliable retrieval.
+          </p>
+          <a href="https://github.com/jeevanreddy492/PasswordSecurity" style={styles.button}>View Project</a>
+        </div>
+
+        <div style={styles.card}>
+          <h3 style={styles.title}>Little Stars Daycare</h3>
+          <p style={styles.desc}>
+            This project is a lightweight, single page React website for Little Stars Daycare that uses reusable components and custom CSS to present services, contact details, and operating hours in a clean, modern, and easy to navigate UI for parents.
+          </p>
+          <a href="https://simple-website-sepia.vercel.app" style={styles.button}>View Project</a>
         </div>
       </div>
     </section>

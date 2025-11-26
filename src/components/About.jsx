@@ -3,19 +3,12 @@ import React from "react";
 export default function About() {
   return (
     <section id="about" style={styles.section}>
-      <h2 style={styles.heading}>About Me</h2>
+      <h2 style={styles.heading}>Skills & Certfications</h2>
 
       <div style={styles.container}>
-        {/* Education */}
-        <div style={styles.card}>
-          <h3 style={styles.subheading}>🎓 Education</h3>
-          <p><strong>Master of Science in Computer Science</strong></p>
-          <p>Westcliff University, California — GPA: 3.86/4</p>
-          <p><strong>Bachelor of Technology in Computer Science</strong></p>
-          <p>Sri Vasavi Engineering College — CGPA: 8.3</p>
-        </div>
+        
 
-        {/* Skills */}
+      
         <div style={styles.card}>
           <h3 style={styles.subheading}>💡 Skills</h3>
           <ul style={styles.list}>
@@ -31,7 +24,7 @@ export default function About() {
           </ul>
         </div>
 
-        {/* Certifications */}
+        
         <div style={styles.card}>
           <h3 style={styles.subheading}>🏅 Certifications</h3>
           <ul style={styles.list}>

@@ -36,7 +36,7 @@ const styles = {
         alignItems: "center",
         padding: "80px 60px",
         backgroundColor: "#f9f9f9",
-        minHeight: "80vh",
+        minHeight: "50vh",
         marginBottom: "0px", 
     },
     textContainer: {
