@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <section id="home" style={styles.hero}>
             <div style={styles.textContainer}>
-                <h1 style={styles.name}>Hi, I'm <span style={styles.highlight}>Jeevan Reddy Pappu</span></h1>
+                <h1 style={styles.name}>Hi, I'm <span style={styles.highlight}>Jeevan</span></h1>
                 <Typewriter options={{
                     strings : ['Im a Competitive Programmar', 'Im a Software Enginner'],
                     loop : true,
@@ -18,7 +18,7 @@ export default function Hero() {
 Skilled in developing efficient, scalable solutions for enterprise applications. Proven ability to optimize workflows, automate
 processes, and deliver high quality results in Agile environments. Passionate about leveraging cutting edge technologies to
 enhance system performance, security, and user experience.</p>
-                <a href="#projects" style={styles.button}>View My Work</a>
+                {/*<a href="#projects" style={styles.button}>View My Work</a>*/}
             </div>
             <img
                 src={profilePic}
