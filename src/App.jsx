@@ -1,6 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Experience from "./components/Experience";
+import Experience1 from "./components/Experience1";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -17,8 +17,9 @@ export default function App() {
     <div>
       <Navbar/>
       <Hero/>
+      <Experience1/>
       <About/>
-      <Experience/>
+      
       <Projects/>
       <Contact/>
     </div>

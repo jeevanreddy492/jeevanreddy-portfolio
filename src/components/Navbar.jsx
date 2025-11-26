@@ -1,16 +1,21 @@
 import React from "react";
-
+import { GrLinkedin } from "react-icons/gr";
+import { BsGithub } from "react-icons/bs";
 export default function Navbar() {
   return (
     <nav style={styles.navbar}>
       <h2 style={styles.logo}>Jeevan Reddy</h2>
       <ul style={styles.navLinks}>
+        <li><a href="https://www.linkedin.com/in/jeevan-reddy-6b7507385/"><GrLinkedin /></a></li>
+        <li><a href="https://github.com/jeevanreddy492"><BsGithub /></a></li>
+      </ul>
+      {/* <ul style={styles.navLinks}>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-      </ul>
+      </ul> */}
     </nav>
   );
 }

@@ -20,12 +20,14 @@ export default function About() {
           <h3 style={styles.subheading}>💡 Skills</h3>
           <ul style={styles.list}>
             <li>Java</li>
-            <li>Oracle Documaker</li>
+            <li>AWS Cloud Services</li>
             <li>SQL</li>
-            <li>HTML, CSS, JavaScript</li>
+            <li>Tableau</li>
+            <li>HTML, CSS, JavaScript, React</li>
             <li>Python</li>
             <li>C / C++</li>
             <li>Data Structures & Algorithms</li>
+            <li>Oracle Documaker</li>
           </ul>
         </div>
 

@@ -14,8 +14,10 @@ export default function Hero() {
                 }} />
                 {/* <h2 style={styles.title}>Software Engineer | Java | Documaker | Data Analyst</h2> */}
                 <p style={styles.desc}>
-                    Passionate about building efficient, secure, and scalable software systems. Experienced in Oracle Documaker and full-stack development.
-                </p>
+                    Experienced Software Engineer with 3 years in Oracle Documaker and strong expertise in Java, Data Structures, and Algorithms.
+Skilled in developing efficient, scalable solutions for enterprise applications. Proven ability to optimize workflows, automate
+processes, and deliver high quality results in Agile environments. Passionate about leveraging cutting edge technologies to
+enhance system performance, security, and user experience.</p>
                 <a href="#projects" style={styles.button}>View My Work</a>
             </div>
             <img
@@ -35,6 +37,7 @@ const styles = {
         padding: "80px 60px",
         backgroundColor: "#f9f9f9",
         minHeight: "80vh",
+        marginBottom: "0px", 
     },
     textContainer: {
         maxWidth: "60%",
@@ -64,9 +67,9 @@ const styles = {
         borderRadius: "5px",
     },
     image: {
-        borderRadius: "50%",
-        width: "500px",
-        height: "500px",
+        //borderRadius: "50%",
+        width: "400px",
+        height: "400px",
         objectFit: "cover",
         border: "4px solid #007acc",
     },
