@@ -2,75 +2,96 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" style={styles.section}>
-      <h2 style={styles.heading}>Skills & Certfications</h2>
+    <section id="about">
+      <h2 className="section-title">Skills</h2>
 
-      <div style={styles.container}>
-        
+      <div className="skills-grid">
 
-      
-        <div style={styles.card}>
-          <h3 style={styles.subheading}>💡 Skills</h3>
-          <ul style={styles.list}>
-            <li>Java</li>
-            <li>AWS Cloud Services</li>
-            <li>SQL</li>
-            <li>Tableau</li>
-            <li>HTML, CSS, JavaScript, React</li>
-            <li>Python</li>
-            <li>C / C++</li>
-            <li>Data Structures & Algorithms</li>
-            <li>Oracle Documaker</li>
-          </ul>
+        <div className="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+          <span>Java</span>
         </div>
 
-        
-        <div style={styles.card}>
-          <h3 style={styles.subheading}>🏅 Certifications</h3>
-          <ul style={styles.list}>
-            <li>Data Structures & Algorithms — GeeksforGeeks</li>
-            <li>AWS Cloud Practitioner — AWS</li>
-            <li>Java & SQL — NPTEL</li>
-          </ul>
+        <div className="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+          <span>AWS</span>
         </div>
+
+        <div className="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+          <span>SQL</span>
+        </div>
+
+        <div className="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg" />
+          <span>Tableau</span>
+        </div>
+
+        <div className="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+          <span>HTML</span>
+        </div>
+
+        <div className="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+          <span>CSS</span>
+        </div>
+
+        <div className="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+          <span>JavaScript</span>
+        </div>
+
+        <div className="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+          <span>React</span>
+        </div>
+
+        <div className="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+          <span>Python</span>
+        </div>
+
+        <div className="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+          <span>C</span>
+        </div>
+
+        <div className="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+          <span>C++</span>
+        </div>
+
+      </div>
+
+      <h2 className="section-title" style={{ marginTop: "100px" }}>
+        Certifications
+      </h2>
+
+      <div className="certifications-grid">
+
+        <div className="cert-badge">
+          <div>
+            <h4>Data Structures & Algorithms</h4>
+            <p>GeeksforGeeks</p>
+          </div>
+        </div>
+
+        <div className="cert-badge">
+          <div>
+            <h4>AWS Cloud Practitioner</h4>
+            <p>AWS</p>
+          </div>
+        </div>
+
+        <div className="cert-badge">
+          <div>
+            <h4>Java & SQL</h4>
+            <p>NPTEL</p>
+          </div>
+        </div>
+
       </div>
     </section>
   );
 }
-
-const styles = {
-  section: {
-    backgroundColor: "#ffffff",
-    padding: "80px 60px",
-    textAlign: "center",
-  },
-  heading: {
-    fontSize: "32px",
-    color: "#007acc",
-    marginBottom: "50px",
-  },
-  container: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    gap: "30px",
-  },
-  card: {
-    backgroundColor: "#f9f9f9",
-    padding: "30px",
-    borderRadius: "10px",
-    boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
-    width: "300px",
-    textAlign: "left",
-  },
-  subheading: {
-    fontSize: "20px",
-    marginBottom: "15px",
-    color: "#333",
-  },
-  list: {
-    listStyle: "none",
-    padding: 0,
-    lineHeight: "1.8",
-  },
-};

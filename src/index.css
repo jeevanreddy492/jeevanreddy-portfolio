@@ -1,6 +1,265 @@
-body {
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+section {
+  padding: 100px 8%;
+}
+
+.section-title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+  background: linear-gradient(90deg, #38bdf8, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #38bdf8;
+}
+
+.nav-icons a {
+  margin-left: 20px;
+  font-size: 22px;
+  color: #f1f5f9;
+  transition: 0.3s;
+}
+
+.nav-icons a:hover {
+  color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+}
+
+.hero-text span {
+  background: linear-gradient(90deg, #38bdf8, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text h2 {
+  margin: 20px 0;
+  color: #94a3b8;
+}
+
+.hero-text p {
+  max-width: 500px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #cbd5e1;
+}
+
+.hero-btn {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #38bdf8, #6366f1);
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  transform: scale(1.05);
+}
+
+.hero-img {
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+/* Cards */
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+
+.logo-slider {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.logo-track {
+  display: flex;
+  gap: 40px;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.logo-track img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.logo-track img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+.logo-slider:hover .logo-track {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* ===== ABOUT SECTION ===== */
+#about {
+  background-color: #0f172a;
+  padding: 100px 8%;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 40px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.skill-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  transition: 0.3s ease;
+}
+
+.skill-item span {
+  display: block;
+  color: #f1f5f9;
+  font-size: 14px;
+}
+
+.skill-item:hover img {
+  transform: scale(1.15);
+}
+
+/* Certifications */
+.certifications-grid {
+  display: grid;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.cert-badge {
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.3s ease;
+}
+
+.cert-badge h4 {
+  margin: 0;
+  color: #f1f5f9;
+}
+
+.cert-badge p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.cert-badge:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+}
+
+
+/* Contact Section */
+#contact {
+  background-color: #0f172a;
+  padding: 100px 8%;
+  text-align: center;
+}
+
+.contact-subtext {
+  color: #94a3b8;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+  color: #f1f5f9;
+}
+
+.contact-list a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
 }

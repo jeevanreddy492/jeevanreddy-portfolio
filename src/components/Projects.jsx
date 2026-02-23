@@ -48,13 +48,13 @@ export default function Projects() {
 
 const styles = {
   section: {
-    backgroundColor: "#ffffff",
+    backgroundColor: "#0f172a",   // dark background
     padding: "80px 60px",
     textAlign: "center",
   },
   heading: {
     fontSize: "32px",
-    color: "#007acc",
+    color: "#38bdf8",   // blue accent
     marginBottom: "50px",
   },
   container: {
@@ -64,25 +64,27 @@ const styles = {
     gap: "30px",
   },
   card: {
-    backgroundColor: "#f9f9f9",
+    backgroundColor: "#1e293b",  // dark card
     width: "300px",
     padding: "25px",
     borderRadius: "10px",
-    boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.4)",  // stronger shadow for dark mode
     textAlign: "left",
+    color: "#f1f5f9",  // light text
   },
   title: {
     fontSize: "20px",
     marginBottom: "10px",
+    color: "#f8fafc",  // brighter title
   },
   desc: {
     fontSize: "15px",
     marginBottom: "20px",
-    color: "#555",
+    color: "#94a3b8",  // muted text
   },
   button: {
-    backgroundColor: "#007acc",
-    color: "#fff",
+    backgroundColor: "#38bdf8",  // blue button
+    color: "#0f172a",  // dark text on button
     padding: "8px 15px",
     borderRadius: "5px",
     textDecoration: "none",
