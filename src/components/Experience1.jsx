@@ -42,7 +42,7 @@ export default function Experience() {
               <CardContent>
                 <Typography variant="h6" fontWeight="bold">Accenture - Custom Software Analyst</Typography>
                 <Typography sx={{ color: "#94a3b8" }}>October 2021 - August 2023</Typography>
-                <Typography>Oracle Documaker, DAL Scripts, Agile, JIRA</Typography>
+                <Typography>Spring Boot, Hibernate, Oracle, Kafka, Oracle Documaker, DAL Scripts, Agile, JIRA</Typography>
               </CardContent>
             </Card>
           </TimelineContent>
@@ -59,7 +59,7 @@ export default function Experience() {
               <CardContent>
                 <Typography variant="h6" fontWeight="bold">ACL Digital - Software Intern</Typography>
                 <Typography sx={{ color: "#94a3b8" }}>January 2021 - August 2021</Typography>
-                <Typography>Java API, Networking Configurations</Typography>
+                <Typography>Java, Spring MVC, HTML5, CSS3, JavaScript, Bootstrap, MySQL, Git, Networking Configurations</Typography>
               </CardContent>
             </Card>
           </TimelineContent>

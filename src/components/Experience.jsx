@@ -35,7 +35,7 @@ export default function Experience() {
         <TimelineContent>
           <Typography variant="h6" fontWeight="bold">Accenture - Custom Software Analyst</Typography>
           <Typography variant="" color="text.secondary">October 2021 - August 2023</Typography>
-          <Typography>Oracle Documaker, DAL Scripts, Agile, JIRA</Typography>
+          <Typography>Spring Boot, Oracle, Oracle Documaker, DAL Scripts, Agile, JIRA</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -46,7 +46,7 @@ export default function Experience() {
         <TimelineContent>
           <Typography variant="h6" fontWeight="bold">ACL Digital - Software Intern</Typography>
           <Typography variant="" color="text.secondary">January 2021 - August 2021</Typography>
-          <Typography>Java API, Networking Configurations</Typography>
+          <Typography>Java, Spring Boot, MySQL, Rest API, Networking Configurations</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
