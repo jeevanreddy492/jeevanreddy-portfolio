@@ -20,7 +20,7 @@ export default function Contact() {
         <li>
           <strong>Phone:</strong>{" "}
           <a href="tel:+15629129631">
-            +1 (562) 912-9631
+            +1 (562) 577-7369
           </a>
         </li>
 
@@ -38,7 +38,7 @@ export default function Contact() {
         <li>
           <strong>Resume:</strong>{" "}
           <a
-            href="https://drive.google.com/file/d/12prFpH84q43wn5UlKl3Ob4AvLn1VfoXc/view?usp=share_link"
+            href="https://docs.google.com/document/d/1FyStBQdKm6DGxIreZ3JhPhPlCAkdhMPPtGGOysHCsiE/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
