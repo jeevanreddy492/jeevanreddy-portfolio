@@ -11,8 +11,56 @@ export default function Experience() {
   return (
     <section id="experience" style={styles.section}>
       <h2 style={styles.heading}>About Me</h2>
-      
+
       <Timeline position="alternate-reverse">
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot sx={{ backgroundColor: "#38bdf8" }} />
+            <TimelineConnector sx={{ backgroundColor: "#334155" }} />
+          </TimelineSeparator>
+
+          <TimelineContent>
+            <Card elevation={2} sx={{ width: 350, p: 1.5, borderRadius: 5, ml: 34, backgroundColor: "#1e293b", color: "#f1f5f9" }}>
+              <CardContent>
+                <Typography variant="h6" fontWeight="bold">
+                  Saayam For All - Full Stack Java Developer
+                </Typography>
+                <Typography sx={{ color: "#94a3b8" }}>
+                  March 2026 - Present
+                </Typography>
+                <Typography>
+                  Java 21, Spring Boot, React.js, PostgreSQL, Apache Kafka,
+                  AWS, Docker, Kubernetes
+                </Typography>
+              </CardContent>
+            </Card>
+          </TimelineContent>
+        </TimelineItem>
+
+
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot sx={{ backgroundColor: "#38bdf8" }} />
+            <TimelineConnector sx={{ backgroundColor: "#334155" }} />
+          </TimelineSeparator>
+
+          <TimelineContent>
+            <Card elevation={2} sx={{ width: 400, p: 1.5, borderRadius: 5, ml: 0, backgroundColor: "#1e293b", color: "#f1f5f9" }}>
+              <CardContent>
+                <Typography variant="h6" fontWeight="bold">
+                  Westcliff University - Software Engineer
+                </Typography>
+                <Typography sx={{ color: "#94a3b8" }}>
+                  April 2025 - February 2026
+                </Typography>
+                <Typography>
+                  Spring Boot, Spring WebFlux, Angular 17, PostgreSQL,
+                  AWS Lambda, REST APIs, Docker
+                </Typography>
+              </CardContent>
+            </Card>
+          </TimelineContent>
+        </TimelineItem>
 
         <TimelineItem>
           <TimelineSeparator>
@@ -23,13 +71,20 @@ export default function Experience() {
           <TimelineContent>
             <Card elevation={2} sx={{ width: 300, p: 1.5, borderRadius: 5, ml: 40, backgroundColor: "#1e293b", color: "#f1f5f9" }}>
               <CardContent>
-                <Typography variant="h6" fontWeight="bold">WestCliff University</Typography>
-                <Typography sx={{ color: "#94a3b8" }}>August 2023 - March 2026</Typography>
-                <Typography>Masters in Computer Science</Typography>
+                <Typography variant="h6" fontWeight="bold">
+                  Westcliff University
+                </Typography>
+                <Typography sx={{ color: "#94a3b8" }}>
+                  August 2023 - March 2026
+                </Typography>
+                <Typography>
+                  Master's in Computer Science | GPA: 3.92/4.0
+                </Typography>
               </CardContent>
             </Card>
           </TimelineContent>
         </TimelineItem>
+
 
         <TimelineItem>
           <TimelineSeparator>
@@ -38,11 +93,11 @@ export default function Experience() {
           </TimelineSeparator>
 
           <TimelineContent>
-            <Card elevation={2} sx={{ width: 400, p: 1.5, borderRadius: 5, mx: "0px", backgroundColor: "#1e293b", color: "#f1f5f9" }}>
+            <Card elevation={2} sx={{ width: 400, p: 1.5, borderRadius: 5, ml: 0, backgroundColor: "#1e293b", color: "#f1f5f9" }}>
               <CardContent>
                 <Typography variant="h6" fontWeight="bold">Accenture - Custom Software Analyst</Typography>
                 <Typography sx={{ color: "#94a3b8" }}>October 2021 - August 2023</Typography>
-                <Typography>Spring Boot, Hibernate, Oracle, Kafka, Oracle Documaker, DAL Scripts, Agile, JIRA</Typography>
+                <Typography>Spring Boot, Hibernate, Oracle, Kafka, Splunk, Oracle Documaker, DAL Scripts, Agile, JIRA</Typography>
               </CardContent>
             </Card>
           </TimelineContent>
@@ -55,7 +110,7 @@ export default function Experience() {
           </TimelineSeparator>
 
           <TimelineContent>
-            <Card elevation={2} sx={{ width: 325, p: 1.5, borderRadius: 5, ml: 32, backgroundColor: "#1e293b", color: "#f1f5f9" }}>
+            <Card elevation={2} sx={{ width: 325, p: 1.5, borderRadius: 5, ml: 35, backgroundColor: "#1e293b", color: "#f1f5f9" }}>
               <CardContent>
                 <Typography variant="h6" fontWeight="bold">ACL Digital - Software Intern</Typography>
                 <Typography sx={{ color: "#94a3b8" }}>January 2021 - August 2021</Typography>
@@ -71,7 +126,7 @@ export default function Experience() {
           </TimelineSeparator>
 
           <TimelineContent>
-            <Card elevation={2} sx={{ width: 350, p: 1.5, borderRadius: 5, mx: "0px", backgroundColor: "#1e293b", color: "#f1f5f9" }}>
+            <Card elevation={2} sx={{ width: 350, p: 1.5, borderRadius: 5, ml: 0, backgroundColor: "#1e293b", color: "#f1f5f9" }}>
               <CardContent>
                 <Typography variant="h6" fontWeight="bold">Sri Vasavi Engineering College</Typography>
                 <Typography sx={{ color: "#94a3b8" }}>June 2017 - July 2021</Typography>
@@ -98,5 +153,5 @@ const styles = {
     textAlign: "center",
     marginBottom: "50px",
   },
-  
+
 };

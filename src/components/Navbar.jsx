@@ -7,9 +7,14 @@ export default function Navbar() {
     <nav className="navbar">
       <h2 className="logo">Jeevan Reddy</h2>
       <div className="nav-icons">
-        <a href="https://www.linkedin.com/in/jeevan-reddy-6b7507385/" target="_blank">
+
+        
+        <a href="https://www.linkedin.com/in/jeevan-pappu-6392ba1b4/" target="_blank">
           <GrLinkedin />
         </a>
+        {/* <a href="https://www.linkedin.com/in/jeevan-reddy-6b7507385/" target="_blank">
+          <GrLinkedin />
+        </a> */}
         <a href="https://github.com/jeevanreddy492" target="_blank">
           <BsGithub />
         </a>

@@ -20,14 +20,14 @@ export default function Contact() {
         <li>
           <strong>Phone:</strong>{" "}
           <a href="tel:+15629129631">
-            +1 (562) 577-7369
+            +1 (562) 912-9631
           </a>
         </li>
 
         <li>
           <strong>LinkedIn:</strong>{" "}
           <a
-            href="https://www.linkedin.com/in/jeevan-reddy-6b7507385/"
+            href="https://www.linkedin.com/in/jeevan-pappu-6392ba1b4/"
             target="_blank"
             rel="noreferrer"
           >
@@ -38,7 +38,7 @@ export default function Contact() {
         <li>
           <strong>Resume:</strong>{" "}
           <a
-            href="https://docs.google.com/document/d/1FyStBQdKm6DGxIreZ3JhPhPlCAkdhMPPtGGOysHCsiE/edit?usp=sharing"
+            href="https://drive.google.com/file/d/15pbAmiI6eijIBywtl9vguGCscUcaEfNu/view?usp=share_link"
             target="_blank"
             rel="noreferrer"
           >
