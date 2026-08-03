@@ -27,7 +27,7 @@ export default function Contact() {
         <li>
           <strong>LinkedIn:</strong>{" "}
           <a
-            href="https://www.linkedin.com/in/jeevan-pappu-6392ba1b4/"
+            href="https://www.linkedin.com/in/jeevan-reddy-pappu-23a94b243/"
             target="_blank"
             rel="noreferrer"
           >
@@ -38,7 +38,7 @@ export default function Contact() {
         <li>
           <strong>Resume:</strong>{" "}
           <a
-            href="https://drive.google.com/file/d/15pbAmiI6eijIBywtl9vguGCscUcaEfNu/view?usp=share_link"
+            href="https://docs.google.com/document/d/1G_v-un0osdRLRDoCfaKVeEPKB5356wCFQtk8D-0-SE0/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

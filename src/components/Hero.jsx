@@ -9,7 +9,7 @@ export default function Hero() {
           Hi, I'm <span>Jeevan</span>
         </h1>
 
-        //<h2>Java Full Stack Developer</h2>
+    
 
         <p>
   Software Engineer experienced in building enterprise-grade and cloud-native
@@ -20,11 +20,13 @@ export default function Hero() {
   event-driven architectures, secure software solutions, and backend services
   that power real-world business applications.
   <br /><br />
-  Currently expanding my expertise in <strong>ASP.NET Core</strong>, <strong>C#</strong>,
-  <strong>Entity Framework Core</strong>, and modern .NET application development,
-  while actively building projects with <strong>Large Language Models (LLMs)</strong>,
-  <strong>Retrieval-Augmented Generation (RAG)</strong>, and
-  <strong>Agentic AI</strong>. I enjoy developing intelligent applications that
+  Currently expanding my expertise in ASP.NET Core, C#,
+  Entity Framework Core, and modern .NET application development,
+  while actively building projects with Large Language Models (LLMs),
+  Retrieval-Augmented Generation (RAG), and
+  Agentic AI.
+  <br /><br />
+  I enjoy developing intelligent applications that
   combine AI with scalable backend systems to automate workflows, enhance user
   experiences, and solve complex real-world problems.
 </p>
@@ -35,7 +37,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/15pbAmiI6eijIBywtl9vguGCscUcaEfNu/view?usp=share_link"
+            href="https://docs.google.com/document/d/1G_v-un0osdRLRDoCfaKVeEPKB5356wCFQtk8D-0-SE0/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="hero-btn secondary"
