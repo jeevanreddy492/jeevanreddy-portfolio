@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="nav-icons">
 
         
-        <a href="https://www.linkedin.com/in/jeevan-pappu-6392ba1b4/" target="_blank">
+        <a href="https://www.linkedin.com/in/jeevan-reddy-pappu-23a94b243/" target="_blank">
           <GrLinkedin />
         </a>
         {/* <a href="https://www.linkedin.com/in/jeevan-reddy-6b7507385/" target="_blank">
