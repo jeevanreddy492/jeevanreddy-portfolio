@@ -23,7 +23,7 @@ export default function Experience() {
             <Card elevation={2} sx={{ width: 350, p: 1.5, borderRadius: 5, ml: 34, backgroundColor: "#1e293b", color: "#f1f5f9" }}>
               <CardContent>
                 <Typography variant="h6" fontWeight="bold">
-                  Saayam For All - Full Stack Java Developer
+                  Saayam For All - Full Stack Developer
                 </Typography>
                 <Typography sx={{ color: "#94a3b8" }}>
                   March 2026 - Present
@@ -48,13 +48,13 @@ export default function Experience() {
             <Card elevation={2} sx={{ width: 400, p: 1.5, borderRadius: 5, ml: 0, backgroundColor: "#1e293b", color: "#f1f5f9" }}>
               <CardContent>
                 <Typography variant="h6" fontWeight="bold">
-                  Westcliff University - Software Engineer
+                  Westcliff University - Capstone Project
                 </Typography>
                 <Typography sx={{ color: "#94a3b8" }}>
-                  April 2025 - February 2026
+                  January 2026 - March 2026
                 </Typography>
                 <Typography>
-                  Spring Boot, Spring WebFlux, Angular 17, PostgreSQL,
+                  Spring Boot, Angular 17, PostgreSQL,
                   AWS Lambda, REST APIs, Docker
                 </Typography>
               </CardContent>
